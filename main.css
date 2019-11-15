@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#logo{
+  height: 100px;
+}
+
+/*----------------------------------- */
+#myVideo {
+  position:fixed;
+    z-index: -1;
+    width:100%;     
+    height: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+      width:100%;
+      height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #myVideo { 
+      width:auto;
+      height: 100%;
+  }
+
+}
